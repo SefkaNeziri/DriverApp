@@ -1,0 +1,132 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFF8F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <!-- Screen heading. -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find Parking"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#684858"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose a spot and reservation time"
+            android:textColor="#876C79"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Parking spot selector. -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parking Spot"
+            android:textStyle="bold"
+            android:textColor="#684858"/>
+
+        <Spinner
+            android:id="@+id/spotSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Duration selector. -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duration (hours)"
+            android:textStyle="bold"
+            android:textColor="#684858"/>
+
+        <Spinner
+            android:id="@+id/hoursSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Reservation date. -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reservation Date"
+            android:textStyle="bold"
+            android:textColor="#684858"/>
+
+        <DatePicker
+            android:id="@+id/reservationDatePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Reservation start time. -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Time"
+            android:textStyle="bold"
+            android:textColor="#684858"/>
+
+        <TimePicker
+            android:id="@+id/reservationTimePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Estimated reservation price. -->
+        <TextView
+            android:id="@+id/priceText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estimated price: €0.00"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#684858"
+            android:gravity="center"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Create reservation. -->
+        <Button
+            android:id="@+id/reserveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reserve Parking"
+            android:backgroundTint="#B85C83"
+            android:textColor="#FFFFFF"/>
+
+        <!-- Return to dashboard. -->
+        <Button
+            android:id="@+id/backFromParkingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Dashboard"
+            android:backgroundTint="#F6D8BD"
+            android:textColor="#684858"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Demo parking data - not live availability"
+            android:textColor="#876C79"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

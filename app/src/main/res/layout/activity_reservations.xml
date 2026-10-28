@@ -1,0 +1,53 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="22dp"
+    android:background="#FFF8F5">
+
+    <!-- Screen heading. -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Reservations"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#684858"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select a reservation to manage it"
+        android:textColor="#876C79"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- List of reservations. -->
+    <ListView
+        android:id="@+id/reservationsList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Cancel selected reservation. -->
+    <Button
+        android:id="@+id/cancelReservationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel Selected Reservation"
+        android:backgroundTint="#B85C83"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Return to dashboard. -->
+    <Button
+        android:id="@+id/backFromReservationsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Dashboard"
+        android:backgroundTint="#F6D8BD"
+        android:textColor="#684858"/>
+
+</LinearLayout>

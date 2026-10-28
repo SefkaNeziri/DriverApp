@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Fancy Smart Parking – DriverApp</string>
+
+    <!-- Personalized greeting on the dashboard. -->
+    <string name="welcome_driver">Welcome, %1$s!</string>
+
+    <!-- Estimated parking reservation price. -->
+    <string name="estimated_price">Estimated price: %1$s</string>
+
+    <!-- Payment amount and status. -->
+    <string name="payment_details">Amount: %1$s\nStatus: %2$s</string>
+
+    <!-- Empty state messages. -->
+    <string name="no_reservation_selected">No reservation selected.</string>
+    <string name="no_active_reservations">No active reservations available.</string>
+    <string name="no_notifications">No notifications yet.</string>
+
+</resources>

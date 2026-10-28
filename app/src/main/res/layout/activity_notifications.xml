@@ -1,0 +1,45 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="22dp"
+    android:background="#FFF8F5">
+
+    <!-- Screen heading. -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#684858"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Updates about your parking activity"
+        android:textColor="#876C79"
+        android:gravity="center"
+        android:layout_marginBottom="18dp"/>
+
+    <!-- Driver notifications. -->
+    <ListView
+        android:id="@+id/notificationsList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="8dp"/>
+
+    <!-- Return to dashboard. -->
+    <Button
+        android:id="@+id/backFromNotificationsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Dashboard"
+        android:backgroundTint="#F6D8BD"
+        android:textColor="#684858"/>
+
+</LinearLayout>

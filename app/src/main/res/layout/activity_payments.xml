@@ -1,0 +1,87 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFF8F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="28dp">
+
+        <!-- Screen heading. -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payments"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#684858"
+            android:gravity="center"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Review your parking payment"
+            android:textColor="#876C79"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- Reservation selector. -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Reservation"
+            android:textStyle="bold"
+            android:textColor="#684858"/>
+
+        <Spinner
+            android:id="@+id/paymentSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Payment amount and status. -->
+        <TextView
+            android:id="@+id/paymentDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No reservation selected."
+            android:textColor="#684858"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:layout_marginBottom="22dp"/>
+
+        <!-- Demo payment action. -->
+        <Button
+            android:id="@+id/payButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simulate Payment"
+            android:backgroundTint="#B85C83"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Demo only - no money will be charged"
+            android:textColor="#876C79"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Return to dashboard. -->
+        <Button
+            android:id="@+id/backFromPaymentsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Dashboard"
+            android:backgroundTint="#F6D8BD"
+            android:textColor="#684858"/>
+
+    </LinearLayout>
+</ScrollView>
