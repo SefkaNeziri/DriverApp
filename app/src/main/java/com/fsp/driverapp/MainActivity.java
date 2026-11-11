@@ -25,7 +25,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    // Tracks the currently displayed application screen.
+    // Tracks the currently displayed application screen. i
     private String currentScreen = "login";
 
     @Override
