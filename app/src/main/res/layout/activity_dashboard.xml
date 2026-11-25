@@ -1,0 +1,104 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFF8F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="28dp">
+
+        <!-- Application heading. -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fancy Smart Parking"
+            android:textColor="#B85C83"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Personalized greeting. -->
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome, Driver!"
+            android:textColor="#684858"
+            android:textSize="21sp"
+            android:gravity="center"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What would you like to do today?"
+            android:textColor="#876C79"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- Navigation to parking search. -->
+        <Button
+            android:id="@+id/findParkingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find Parking"
+            android:backgroundTint="#B85C83"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Navigation to reservations. -->
+        <Button
+            android:id="@+id/reservationsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Reservations"
+            android:backgroundTint="#E8A1BB"
+            android:textColor="#684858"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Navigation to payments. -->
+        <Button
+            android:id="@+id/paymentsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payments"
+            android:backgroundTint="#E8A1BB"
+            android:textColor="#684858"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Navigation to notifications. -->
+        <Button
+            android:id="@+id/notificationsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:backgroundTint="#F6D8BD"
+            android:textColor="#684858"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Logout action. -->
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:backgroundTint="#684858"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frontend Demo Mode"
+            android:textSize="12sp"
+            android:textColor="#876C79"
+            android:gravity="center"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+</ScrollView>

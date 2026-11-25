@@ -22,6 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DriverApp"
+rootProject.name = "Fancy Smart Parking – DriverApp"
 include(":app")
- 

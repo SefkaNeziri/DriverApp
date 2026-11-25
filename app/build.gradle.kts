@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.driverapp"
+    namespace = "com.fsp.driverapp"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.driverapp"
+        applicationId = "com.fsp.driverapp"
         minSdk = 33
         targetSdk = 37
         versionCode = 1

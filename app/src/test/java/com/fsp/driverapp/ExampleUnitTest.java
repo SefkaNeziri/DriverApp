@@ -1,4 +1,4 @@
-package com.example.driverapp;
+package com.fsp.driverapp;
 
 import org.junit.Test;
 
